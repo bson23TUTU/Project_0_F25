@@ -1,5 +1,5 @@
 
-
+#include "random.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -22,7 +22,7 @@ int main()
 
 {
     char *str;
-    size_t size =   ;  //specify a value for size of word
+    size_t size = 10  ;  //specify a value for size of word
 
 	/* seed the randomizer */
 	srand( (unsigned)time(NULL) );
